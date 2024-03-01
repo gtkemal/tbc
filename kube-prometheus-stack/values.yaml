@@ -997,7 +997,6 @@ grafana:
     ##
      hosts:
        - grafana.local
-    hosts: []
 
     ## Path for grafana ingress
     path: /
