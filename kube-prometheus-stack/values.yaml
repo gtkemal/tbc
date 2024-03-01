@@ -995,8 +995,8 @@ grafana:
     ## Hostnames.
     ## Must be provided if Ingress is enable.
     ##
-     hosts:
-       - grafana.local
+    hosts:
+      - grafana.local
 
     ## Path for grafana ingress
     path: /
