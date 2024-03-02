@@ -335,7 +335,7 @@ alertmanager:
         matchers:
           - alertname = "Watchdog"
     receivers:
-    - name: 'null'    
+    - name: 'null'
     templates:
     - '/etc/alertmanager/config/*.tmpl'
 
